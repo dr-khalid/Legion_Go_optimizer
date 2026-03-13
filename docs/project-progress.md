@@ -79,8 +79,9 @@ High-impact actions such as registry edits, service changes, and force-closing a
 
 1. document the diagnostic workflow for AI agents
 2. create skill playbooks for process analysis and cleanup decisions
-3. create the first implementation script: `system-diagnostic.ps1`
-4. keep this file updated after each meaningful repo change
+3. write the staged gaming cleanup policy
+4. create the first implementation script: `system-diagnostic.ps1`
+5. keep this file updated after each meaningful repo change
 
 ## Update template
 

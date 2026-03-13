@@ -101,3 +101,5 @@ These should not be killed or disabled casually:
 ## How this document relates to the skills folder
 
 This runbook is the high-level flow. The `skills` folder contains the narrower playbooks an agent can follow for specific tasks such as diagnostics, process classification, and cleanup planning.
+
+For the concrete staged shutdown order and command examples, see `docs\gaming-cleanup-policy.md`.

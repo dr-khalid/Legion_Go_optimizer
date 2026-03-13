@@ -30,6 +30,7 @@ For now, it contains markdown only:
 - script catalog
 - per-script design specs
 - AI agent runbook
+- gaming cleanup policy
 - AI skills playbooks
 
 ## Planned repo shape
@@ -86,5 +87,7 @@ See `docs\script-catalog.md` for the planned script set.
 See `docs\project-progress.md` for notes, progress steps, and the running timeline.
 
 See `docs\agent-workflow.md` for the diagnostic and cleanup workflow that future AI agents should follow.
+
+See `docs\gaming-cleanup-policy.md` for the staged background-process cleanup policy.
 
 See `skills\README.md` for the agent skill set and execution playbooks.
