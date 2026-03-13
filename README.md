@@ -23,6 +23,7 @@ This repository is currently in the planning and documentation stage.
 For now, it contains markdown only:
 
 - project overview
+- project progress log
 - repo blueprint
 - script audit summary
 - safety guidelines
@@ -79,3 +80,5 @@ Next steps for this repo will likely be:
 See `docs\repo-blueprint.md` for the target structure.
 
 See `docs\script-catalog.md` for the planned script set.
+
+See `docs\project-progress.md` for notes, progress steps, and the running timeline.
