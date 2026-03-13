@@ -29,6 +29,8 @@ For now, it contains markdown only:
 - safety guidelines
 - script catalog
 - per-script design specs
+- AI agent runbook
+- AI skills playbooks
 
 ## Planned repo shape
 
@@ -82,3 +84,7 @@ See `docs\repo-blueprint.md` for the target structure.
 See `docs\script-catalog.md` for the planned script set.
 
 See `docs\project-progress.md` for notes, progress steps, and the running timeline.
+
+See `docs\agent-workflow.md` for the diagnostic and cleanup workflow that future AI agents should follow.
+
+See `skills\README.md` for the agent skill set and execution playbooks.

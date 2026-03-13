@@ -47,6 +47,13 @@ The repository is set up as a documentation-first Legion Go gaming optimization 
 - added `.gitignore`
 - created and pushed the documentation bootstrap commit on `main`
 
+#### Live diagnostic baseline captured
+
+- collected a runtime snapshot of active processes, startup items, scheduled tasks, and non-Windows auto-running services
+- confirmed that memory pressure is already high before gaming starts
+- identified likely close candidates such as VS Code, Edge, OneDrive, Xbox app, EA Desktop, and Razer extras
+- identified core Windows processes that should not be targeted blindly
+
 ## Notes
 
 ### Current direction
@@ -59,9 +66,10 @@ Build the project in stages:
 
 1. documentation
 2. diagnostics
-3. low-risk setup helpers
-4. broader optimization tools
-5. game-specific helpers
+3. agent workflow and skill documentation
+4. low-risk setup helpers
+5. broader optimization tools
+6. game-specific helpers
 
 ### Safety reminder
 
@@ -69,9 +77,10 @@ High-impact actions such as registry edits, service changes, and force-closing a
 
 ## Next planned steps
 
-1. create the first implementation script: `system-diagnostic.ps1`
-2. keep this file updated after each meaningful repo change
-3. add more progress entries as implementation begins
+1. document the diagnostic workflow for AI agents
+2. create skill playbooks for process analysis and cleanup decisions
+3. create the first implementation script: `system-diagnostic.ps1`
+4. keep this file updated after each meaningful repo change
 
 ## Update template
 
